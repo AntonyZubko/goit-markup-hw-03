@@ -37,22 +37,21 @@ img {
 /* ----------_________________HEADER--------------------------------------- */
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+
     border-bottom: 1px solid #E7E9FC;
     
 }
 
 .header-navigation {
     display: flex;
-    flex-grow: 1;
+    margin-right: auto;
     align-items: center;
     
 }
 
 .header-container {
     display: flex;
-    
+    align-items: center;
     
 }
 
@@ -85,13 +84,15 @@ img {
 .list {
     list-style-type: none;
 }
-.header.link {
+.header-nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: var(--main-title-color);
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding: 24px 0;
+    display: block;
 }
 
 .header.link:hover,
@@ -117,9 +118,7 @@ img {
 .header-address {
     font-style: normal;
 }
-.item-address {
-    margin-left: 40px;
-}
+
 
 
 /* --------------------______________HERO-_______________----------- */
@@ -139,6 +138,8 @@ img {
     letter-spacing: 0.02em;
     color: var(--white-color);
         margin-bottom: 48px;
+        margin-right: auto;
+        margin-left: auto;
 
 
 }
@@ -288,7 +289,7 @@ img {
 
 /* ------------------------------FOOTER____________________________ */
 
-.footer{
+.footer-logo {
     background-color: var(--main-title-color);
     padding: 100px 0;
 
