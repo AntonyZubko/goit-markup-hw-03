@@ -46,6 +46,7 @@ img {
 .header-navigation {
     display: flex;
     flex-grow: 1;
+    align-items: center;
     
 }
 
@@ -59,8 +60,7 @@ img {
     display: flex;
 }
 
-.list-header {
-    margin-left: 76px;
+.header-list {
     gap: 40px;
 }
 
@@ -73,6 +73,7 @@ img {
     letter-spacing: 0.03em;
     color: var(--iris-color);
     text-decoration: none;
+    margin-right: 76px;
     
 }
 
@@ -133,12 +134,14 @@ img {
 }
 
 .hero-title {
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
+    align-items: center;
     letter-spacing: 0.02em;
     color: var(--white-color);
-        padding: 188px 316px 0 316px;
+        padding-top: 188px;
+        padding-bottom: 188px;
         margin-bottom: 48px;
 
 
@@ -158,6 +161,9 @@ img {
         padding: 16px 32px;
         display: block;
         margin: 0 auto;
+        min-width: 169px;
+        height: 56px;
+        border: none;
 }
 
 .hero-btn:hover,
