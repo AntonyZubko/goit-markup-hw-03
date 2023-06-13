@@ -267,6 +267,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--main-title-color);
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-item-text {
@@ -281,8 +282,8 @@ img {
 
 .footer{
     background-color: var(--main-title-color);
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
+
 }
 
 .footer.link {
@@ -294,7 +295,11 @@ img {
     text-transform: uppercase;
     color: var(--iris-color);
     text-decoration: none;
+    margin-bottom: 16px;
+    display: inline-block;
+
 }
+
 
 
 .footer-link-span {
@@ -314,7 +319,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--cloud-color);
     max-width: 264px;
-    margin-top: 16px;
+
 }
 
 /* ---------------------------------------PORTFOLIO--------------------------------------------------- */
