@@ -58,11 +58,11 @@ img {
 
 .list {
     display: flex;
+    gap: 40px;
+    
 }
 
-.header-list {
-    gap: 40px;
-}
+
 
 .logo.link {
     font-family: "Raleway", sans-serif;
