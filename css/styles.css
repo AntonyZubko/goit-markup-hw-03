@@ -126,12 +126,10 @@ img {
 
 .hero {
     background-color: var(--main-title-color);
-    margin-bottom: 120px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
-.hero-container {
- height: 600px;
-}
 
 .hero-title {
     max-width: 496px;
@@ -140,8 +138,6 @@ img {
     align-items: center;
     letter-spacing: 0.02em;
     color: var(--white-color);
-        padding-top: 188px;
-        padding-bottom: 188px;
         margin-bottom: 48px;
 
 
@@ -175,7 +171,7 @@ img {
 /* ------------------------------BENEFITS___________________________ */
 
 .benefits {
-    margin-bottom: 120px;
+    padding: 120px 0;
 }
 
 .benefits-list {
@@ -223,7 +219,7 @@ img {
 }
 
 .products {
-    margin-bottom: 120px;
+ padding-bottom: 120px;
 }
 
 
